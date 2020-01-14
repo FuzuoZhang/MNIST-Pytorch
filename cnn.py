@@ -8,7 +8,7 @@ import torch.nn.functional as F
 两个[卷积层+Relu+Max pooling]，三个全连接层
 '''
 
-class CNN(nn.Moudles):
+class CNN(nn.Module):
     def __init__(self):
         super(CNN, self).__init__()
         self.conv1 = nn.Conv2d(1,6,3,stride=1,padding=1)
@@ -23,8 +23,10 @@ class CNN(nn.Moudles):
 
 
     def forward(self, x):
+        x = x.view(-1,1,28,28)
         x = self.pool1(F.relu(self.conv1(x)))
         x = self.pool2(F.relu(self.conv2(x)))
+        x = x.view(-1,16*5*5)
         x = F.relu(self.lin1(x))
         x = F.relu(self.lin2(x))
         x = F.relu(self.lin3(x))

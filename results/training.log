@@ -1,0 +1,492 @@
+[2020-01-14 16:04:17 main.py:47] INFO     datapath:F:/data/MNIST/train.csv
+[2020-01-14 16:04:17 main.py:47] INFO     epoch:20
+[2020-01-14 16:04:17 main.py:47] INFO     gamma:0.7
+[2020-01-14 16:04:17 main.py:47] INFO     gpu:0
+[2020-01-14 16:04:17 main.py:47] INFO     lr:0.01
+[2020-01-14 16:04:17 main.py:47] INFO     momentum:0.9
+[2020-01-14 16:04:17 main.py:47] INFO     resume:None
+[2020-01-14 16:04:17 main.py:47] INFO     save_path:./results
+[2020-01-14 16:04:17 main.py:47] INFO     stepsize:1
+[2020-01-14 16:04:17 main.py:47] INFO     train_bsize:4
+[2020-01-14 16:04:17 main.py:47] INFO     val_bsize:1
+[2020-01-14 16:04:17 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 16:04:17 main.py:73] INFO     Not Resume
+[2020-01-14 16:04:17 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 16:24:26 main.py:47] INFO     datapath:/home/zhangfz/data/MNIST/train.csv
+[2020-01-14 16:24:26 main.py:47] INFO     epoch:20
+[2020-01-14 16:24:26 main.py:47] INFO     gamma:0.7
+[2020-01-14 16:24:26 main.py:47] INFO     gpu:0
+[2020-01-14 16:24:26 main.py:47] INFO     lr:0.01
+[2020-01-14 16:24:26 main.py:47] INFO     momentum:0.9
+[2020-01-14 16:24:26 main.py:47] INFO     resume:None
+[2020-01-14 16:24:26 main.py:47] INFO     save_path:./results
+[2020-01-14 16:24:26 main.py:47] INFO     stepsize:1
+[2020-01-14 16:24:26 main.py:47] INFO     train_bsize:4
+[2020-01-14 16:24:26 main.py:47] INFO     val_bsize:1
+[2020-01-14 16:24:35 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 16:24:35 main.py:73] INFO     Not Resume
+[2020-01-14 16:24:35 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 17:59:39 main.py:47] INFO     datapath:/home/zhangfz/data/MNIST/train.csv
+[2020-01-14 17:59:39 main.py:47] INFO     epoch:20
+[2020-01-14 17:59:39 main.py:47] INFO     gamma:0.7
+[2020-01-14 17:59:39 main.py:47] INFO     gpu:0
+[2020-01-14 17:59:39 main.py:47] INFO     lr:0.01
+[2020-01-14 17:59:39 main.py:47] INFO     momentum:0.9
+[2020-01-14 17:59:39 main.py:47] INFO     resume:None
+[2020-01-14 17:59:39 main.py:47] INFO     save_path:./results
+[2020-01-14 17:59:39 main.py:47] INFO     stepsize:1
+[2020-01-14 17:59:39 main.py:47] INFO     train_bsize:4
+[2020-01-14 17:59:39 main.py:47] INFO     val_bsize:1
+[2020-01-14 17:59:49 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 17:59:49 main.py:73] INFO     Not Resume
+[2020-01-14 17:59:49 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 18:21:18 main.py:47] INFO     datapath:/home/zhangfz/data/MNIST/train.csv
+[2020-01-14 18:21:18 main.py:47] INFO     epoch:20
+[2020-01-14 18:21:18 main.py:47] INFO     gamma:0.7
+[2020-01-14 18:21:18 main.py:47] INFO     gpu:0
+[2020-01-14 18:21:18 main.py:47] INFO     lr:0.01
+[2020-01-14 18:21:18 main.py:47] INFO     momentum:0.9
+[2020-01-14 18:21:18 main.py:47] INFO     resume:None
+[2020-01-14 18:21:18 main.py:47] INFO     save_path:./results
+[2020-01-14 18:21:18 main.py:47] INFO     stepsize:1
+[2020-01-14 18:21:18 main.py:47] INFO     train_bsize:4
+[2020-01-14 18:21:18 main.py:47] INFO     val_bsize:1
+[2020-01-14 18:21:28 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 18:21:28 main.py:73] INFO     Not Resume
+[2020-01-14 18:21:28 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 18:22:53 main.py:47] INFO     datapath:/home/zhangfz/data/MNIST/train.csv
+[2020-01-14 18:22:53 main.py:47] INFO     epoch:20
+[2020-01-14 18:22:53 main.py:47] INFO     gamma:0.7
+[2020-01-14 18:22:53 main.py:47] INFO     gpu:0
+[2020-01-14 18:22:53 main.py:47] INFO     lr:0.01
+[2020-01-14 18:22:53 main.py:47] INFO     momentum:0.9
+[2020-01-14 18:22:53 main.py:47] INFO     resume:None
+[2020-01-14 18:22:53 main.py:47] INFO     save_path:./results
+[2020-01-14 18:22:53 main.py:47] INFO     stepsize:1
+[2020-01-14 18:22:53 main.py:47] INFO     train_bsize:4
+[2020-01-14 18:22:53 main.py:47] INFO     val_bsize:1
+[2020-01-14 18:23:02 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 18:23:02 main.py:73] INFO     Not Resume
+[2020-01-14 18:23:02 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 18:26:16 main.py:47] INFO     datapath:/home/zhangfz/data/MNIST/train.csv
+[2020-01-14 18:26:16 main.py:47] INFO     epoch:20
+[2020-01-14 18:26:16 main.py:47] INFO     gamma:0.7
+[2020-01-14 18:26:16 main.py:47] INFO     gpu:0
+[2020-01-14 18:26:16 main.py:47] INFO     lr:0.01
+[2020-01-14 18:26:16 main.py:47] INFO     momentum:0.9
+[2020-01-14 18:26:16 main.py:47] INFO     resume:None
+[2020-01-14 18:26:16 main.py:47] INFO     save_path:./results
+[2020-01-14 18:26:16 main.py:47] INFO     stepsize:1
+[2020-01-14 18:26:16 main.py:47] INFO     train_bsize:4
+[2020-01-14 18:26:16 main.py:47] INFO     val_bsize:1
+[2020-01-14 18:26:26 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 18:26:26 main.py:73] INFO     Not Resume
+[2020-01-14 18:26:26 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 18:39:11 main.py:47] INFO     datapath:/home/zhangfz/data/MNIST/train.csv
+[2020-01-14 18:39:11 main.py:47] INFO     epoch:20
+[2020-01-14 18:39:11 main.py:47] INFO     gamma:0.7
+[2020-01-14 18:39:11 main.py:47] INFO     gpu:0
+[2020-01-14 18:39:11 main.py:47] INFO     lr:0.01
+[2020-01-14 18:39:11 main.py:47] INFO     momentum:0.9
+[2020-01-14 18:39:11 main.py:47] INFO     resume:None
+[2020-01-14 18:39:11 main.py:47] INFO     save_path:./results
+[2020-01-14 18:39:11 main.py:47] INFO     stepsize:1
+[2020-01-14 18:39:11 main.py:47] INFO     train_bsize:4
+[2020-01-14 18:39:11 main.py:47] INFO     val_bsize:1
+[2020-01-14 18:39:21 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 18:39:21 main.py:73] INFO     Not Resume
+[2020-01-14 18:39:21 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 18:40:24 main.py:47] INFO     datapath:/home/zhangfz/data/MNIST/train.csv
+[2020-01-14 18:40:24 main.py:47] INFO     epoch:20
+[2020-01-14 18:40:24 main.py:47] INFO     gamma:0.7
+[2020-01-14 18:40:24 main.py:47] INFO     gpu:0
+[2020-01-14 18:40:24 main.py:47] INFO     lr:0.01
+[2020-01-14 18:40:24 main.py:47] INFO     momentum:0.9
+[2020-01-14 18:40:24 main.py:47] INFO     resume:None
+[2020-01-14 18:40:24 main.py:47] INFO     save_path:./results
+[2020-01-14 18:40:24 main.py:47] INFO     stepsize:1
+[2020-01-14 18:40:24 main.py:47] INFO     train_bsize:4
+[2020-01-14 18:40:24 main.py:47] INFO     val_bsize:1
+[2020-01-14 18:40:32 main.py:57] INFO     Number of model parameters: 61610
+[2020-01-14 18:40:32 main.py:73] INFO     Not Resume
+[2020-01-14 18:40:32 main.py:77] INFO     This is 0-th epoch
+[2020-01-14 18:40:32 main.py:107] INFO     Epoch: 1/20   Training Loss: 2.310
+[2020-01-14 18:40:34 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.202
+[2020-01-14 18:40:35 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.897
+[2020-01-14 18:40:37 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.076
+[2020-01-14 18:40:39 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.000
+[2020-01-14 18:40:40 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.018
+[2020-01-14 18:40:42 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.147
+[2020-01-14 18:40:44 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.000
+[2020-01-14 18:40:45 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.378
+[2020-01-14 18:40:47 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.007
+[2020-01-14 18:40:48 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.791
+[2020-01-14 18:40:50 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.350
+[2020-01-14 18:40:52 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.994
+[2020-01-14 18:40:53 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.002
+[2020-01-14 18:40:55 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.517
+[2020-01-14 18:40:56 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.022
+[2020-01-14 18:40:58 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.081
+[2020-01-14 18:41:00 main.py:107] INFO     Epoch: 1/20   Training Loss: 0.468
+[2020-01-14 18:41:01 main.py:77] INFO     This is 1-th epoch
+[2020-01-14 18:41:01 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.239
+[2020-01-14 18:41:03 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.287
+[2020-01-14 18:41:04 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.000
+[2020-01-14 18:41:06 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.000
+[2020-01-14 18:41:08 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.000
+[2020-01-14 18:41:09 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.000
+[2020-01-14 18:41:11 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.009
+[2020-01-14 18:41:12 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.000
+[2020-01-14 18:41:14 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.123
+[2020-01-14 18:41:16 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.004
+[2020-01-14 18:41:17 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.105
+[2020-01-14 18:41:19 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.153
+[2020-01-14 18:41:20 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.143
+[2020-01-14 18:41:22 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.000
+[2020-01-14 18:41:24 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.159
+[2020-01-14 18:41:25 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.228
+[2020-01-14 18:41:27 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.001
+[2020-01-14 18:41:29 main.py:107] INFO     Epoch: 2/20   Training Loss: 0.009
+[2020-01-14 18:41:30 main.py:77] INFO     This is 2-th epoch
+[2020-01-14 18:41:30 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.036
+[2020-01-14 18:41:32 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.046
+[2020-01-14 18:41:33 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.002
+[2020-01-14 18:41:35 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.000
+[2020-01-14 18:41:36 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.000
+[2020-01-14 18:41:38 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.000
+[2020-01-14 18:41:40 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.002
+[2020-01-14 18:41:41 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.001
+[2020-01-14 18:41:43 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.051
+[2020-01-14 18:41:45 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.000
+[2020-01-14 18:41:46 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.000
+[2020-01-14 18:41:48 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.060
+[2020-01-14 18:41:50 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.070
+[2020-01-14 18:41:51 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.000
+[2020-01-14 18:41:53 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.255
+[2020-01-14 18:41:54 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.016
+[2020-01-14 18:41:56 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.000
+[2020-01-14 18:41:58 main.py:107] INFO     Epoch: 3/20   Training Loss: 0.006
+[2020-01-14 18:41:59 main.py:77] INFO     This is 3-th epoch
+[2020-01-14 18:41:59 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.001
+[2020-01-14 18:42:01 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:03 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.002
+[2020-01-14 18:42:04 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:06 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:07 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:09 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.006
+[2020-01-14 18:42:11 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:12 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.014
+[2020-01-14 18:42:14 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.003
+[2020-01-14 18:42:16 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:17 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.003
+[2020-01-14 18:42:19 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.011
+[2020-01-14 18:42:21 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:22 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.390
+[2020-01-14 18:42:24 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.014
+[2020-01-14 18:42:25 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.000
+[2020-01-14 18:42:27 main.py:107] INFO     Epoch: 4/20   Training Loss: 0.003
+[2020-01-14 18:42:28 main.py:77] INFO     This is 4-th epoch
+[2020-01-14 18:42:28 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:30 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.003
+[2020-01-14 18:42:32 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.003
+[2020-01-14 18:42:33 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:35 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:36 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:38 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.002
+[2020-01-14 18:42:40 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:41 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.007
+[2020-01-14 18:42:43 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:45 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:46 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.003
+[2020-01-14 18:42:48 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.004
+[2020-01-14 18:42:50 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:51 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.056
+[2020-01-14 18:42:53 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.033
+[2020-01-14 18:42:54 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.000
+[2020-01-14 18:42:56 main.py:107] INFO     Epoch: 5/20   Training Loss: 0.001
+[2020-01-14 18:42:57 main.py:77] INFO     This is 5-th epoch
+[2020-01-14 18:42:57 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:42:59 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:01 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:02 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:04 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:05 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:07 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:09 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:10 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.002
+[2020-01-14 18:43:12 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:14 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:15 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.001
+[2020-01-14 18:43:17 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:18 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:20 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.031
+[2020-01-14 18:43:21 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.015
+[2020-01-14 18:43:23 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.000
+[2020-01-14 18:43:24 main.py:107] INFO     Epoch: 6/20   Training Loss: 0.001
+[2020-01-14 18:43:26 main.py:77] INFO     This is 6-th epoch
+[2020-01-14 18:43:26 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:28 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:29 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.001
+[2020-01-14 18:43:31 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:32 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:34 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:35 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:37 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:38 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.002
+[2020-01-14 18:43:40 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:42 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:43 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:45 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.005
+[2020-01-14 18:43:47 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:49 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.012
+[2020-01-14 18:43:50 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.021
+[2020-01-14 18:43:52 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:54 main.py:107] INFO     Epoch: 7/20   Training Loss: 0.000
+[2020-01-14 18:43:55 main.py:77] INFO     This is 7-th epoch
+[2020-01-14 18:43:55 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:43:57 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:43:58 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.002
+[2020-01-14 18:44:00 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:01 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:03 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:05 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:07 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:08 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:10 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:12 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:14 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:15 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.019
+[2020-01-14 18:44:17 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:19 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.013
+[2020-01-14 18:44:20 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.030
+[2020-01-14 18:44:22 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:24 main.py:107] INFO     Epoch: 8/20   Training Loss: 0.000
+[2020-01-14 18:44:25 main.py:77] INFO     This is 8-th epoch
+[2020-01-14 18:44:25 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:27 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:28 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.001
+[2020-01-14 18:44:30 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:32 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:33 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:35 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:36 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:38 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:40 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:41 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:43 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:45 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.006
+[2020-01-14 18:44:46 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:48 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.017
+[2020-01-14 18:44:50 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.025
+[2020-01-14 18:44:51 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:53 main.py:107] INFO     Epoch: 9/20   Training Loss: 0.000
+[2020-01-14 18:44:54 main.py:77] INFO     This is 9-th epoch
+[2020-01-14 18:44:55 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:44:56 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:44:58 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.001
+[2020-01-14 18:44:59 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:01 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:02 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:04 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:06 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:07 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:09 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:10 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:12 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:14 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.004
+[2020-01-14 18:45:15 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:17 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.019
+[2020-01-14 18:45:18 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.022
+[2020-01-14 18:45:20 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:22 main.py:107] INFO     Epoch: 10/20   Training Loss: 0.000
+[2020-01-14 18:45:23 main.py:77] INFO     This is 10-th epoch
+[2020-01-14 18:45:23 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:25 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:26 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:28 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:29 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:31 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:32 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:34 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:35 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:37 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:38 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:40 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:42 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.002
+[2020-01-14 18:45:43 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:45 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.021
+[2020-01-14 18:45:46 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.018
+[2020-01-14 18:45:48 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:50 main.py:107] INFO     Epoch: 11/20   Training Loss: 0.000
+[2020-01-14 18:45:51 main.py:77] INFO     This is 11-th epoch
+[2020-01-14 18:45:51 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:45:53 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:45:55 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:45:57 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:45:58 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:00 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:02 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:04 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:05 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:07 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:09 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:10 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:12 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.002
+[2020-01-14 18:46:13 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:15 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.022
+[2020-01-14 18:46:17 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.016
+[2020-01-14 18:46:18 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:20 main.py:107] INFO     Epoch: 12/20   Training Loss: 0.000
+[2020-01-14 18:46:22 main.py:77] INFO     This is 12-th epoch
+[2020-01-14 18:46:22 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:23 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:25 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:27 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:28 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:30 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:32 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:33 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:35 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:37 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:39 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:40 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:42 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.002
+[2020-01-14 18:46:44 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:45 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.022
+[2020-01-14 18:46:47 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.016
+[2020-01-14 18:46:49 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:50 main.py:107] INFO     Epoch: 13/20   Training Loss: 0.000
+[2020-01-14 18:46:52 main.py:77] INFO     This is 13-th epoch
+[2020-01-14 18:46:52 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:46:53 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:46:55 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:46:56 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:46:58 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:00 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:01 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:02 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:04 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:05 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:07 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:08 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:10 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.002
+[2020-01-14 18:47:12 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:13 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.023
+[2020-01-14 18:47:15 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.015
+[2020-01-14 18:47:16 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:18 main.py:107] INFO     Epoch: 14/20   Training Loss: 0.000
+[2020-01-14 18:47:20 main.py:77] INFO     This is 14-th epoch
+[2020-01-14 18:47:20 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:21 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:23 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:25 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:27 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:28 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:30 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:32 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:33 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:35 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:36 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:38 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:40 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.002
+[2020-01-14 18:47:41 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:43 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.023
+[2020-01-14 18:47:44 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.014
+[2020-01-14 18:47:46 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:48 main.py:107] INFO     Epoch: 15/20   Training Loss: 0.000
+[2020-01-14 18:47:49 main.py:77] INFO     This is 15-th epoch
+[2020-01-14 18:47:49 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:47:51 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:47:52 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:47:54 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:47:55 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:47:57 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:47:59 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:00 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:02 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:03 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:05 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:06 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:08 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.002
+[2020-01-14 18:48:10 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:11 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.024
+[2020-01-14 18:48:13 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.014
+[2020-01-14 18:48:14 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:16 main.py:107] INFO     Epoch: 16/20   Training Loss: 0.000
+[2020-01-14 18:48:17 main.py:77] INFO     This is 16-th epoch
+[2020-01-14 18:48:17 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:19 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:21 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:22 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:24 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:26 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:27 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:29 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:30 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:32 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:34 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:35 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:37 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.002
+[2020-01-14 18:48:39 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:41 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.024
+[2020-01-14 18:48:42 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.013
+[2020-01-14 18:48:44 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:46 main.py:107] INFO     Epoch: 17/20   Training Loss: 0.000
+[2020-01-14 18:48:47 main.py:77] INFO     This is 17-th epoch
+[2020-01-14 18:48:47 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:48:49 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:48:51 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:48:52 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:48:54 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:48:56 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:48:57 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:48:59 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:00 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:02 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:03 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:05 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:06 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.002
+[2020-01-14 18:49:08 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:09 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.024
+[2020-01-14 18:49:11 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.013
+[2020-01-14 18:49:13 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:14 main.py:107] INFO     Epoch: 18/20   Training Loss: 0.000
+[2020-01-14 18:49:16 main.py:77] INFO     This is 18-th epoch
+[2020-01-14 18:49:16 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:17 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:19 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:20 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:22 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:24 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:25 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:27 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:28 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:30 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:32 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:33 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:35 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.002
+[2020-01-14 18:49:36 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:38 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.025
+[2020-01-14 18:49:40 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.013
+[2020-01-14 18:49:41 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:43 main.py:107] INFO     Epoch: 19/20   Training Loss: 0.000
+[2020-01-14 18:49:44 main.py:77] INFO     This is 19-th epoch
+[2020-01-14 18:49:44 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:46 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:48 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:49 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:51 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:52 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:54 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:56 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:57 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:49:59 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:50:00 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:50:02 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:50:04 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.002
+[2020-01-14 18:50:05 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:50:07 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.025
+[2020-01-14 18:50:09 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.013
+[2020-01-14 18:50:10 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:50:12 main.py:107] INFO     Epoch: 20/20   Training Loss: 0.000
+[2020-01-14 18:50:13 main.py:89] INFO     full training time =  0.161460 hours
