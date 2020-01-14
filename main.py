@@ -6,6 +6,7 @@ import torch
 import torch.utils.data
 import torch.optim as optim
 import torch.optim.lr_scheduler as lr_scheduler
+import torch.nn as nn
 import torch.nn.functional as F
 from cnn import CNN
 from logger import setup_logger
@@ -14,10 +15,10 @@ from dataloader import dataloader, myDataset
 parser = argparse.ArgumentParser(description='CNN with MNIST')
 parser.add_argument('--epoch', type=int, default=20, help='number of epochs to train')
 parser.add_argument('--datapath', default='/home/zhangfz/data/MNIST/train.csv', help='training data path')
-parser.add_argument('--train_bsize', type=int, default=4, help='training batch size')
+parser.add_argument('--train_bsize', type=int, default=20, help='training batch size')
 parser.add_argument('--val_bsize', type=int, default=1, help='validation batch size')
 parser.add_argument('--save_path', default='./results', help='save path')
-parser.add_argument('--resume', type=str, default=None, help='resume path')
+parser.add_argument('--resume', type=str, default='./results/checkpoint.pth', help='resume path')
 parser.add_argument('--lr', type=float, default=1e-2, help='learning rate')
 parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
 parser.add_argument('--stepsize', type=int, default=1, help='step size for learning rate')
@@ -77,7 +78,7 @@ def main():
         log.info('This is {}-th epoch'.format(epoch))
         train(TrainDataset, model, device, optimizer, log, epoch)
 
-        savefile = args.save_path + 'checkpoint.pth'
+        savefile = args.save_path + '/checkpoint.pth'
         torch.save({
             'epoch': epoch,
             'state_dict': model.state_dict(),
@@ -85,10 +86,12 @@ def main():
             savefile)
         
         scheduler.step() # 更新学习率
+        test(ValDataset, model, device, log, epoch)
     log.info("full training time = {: 2f} hours".format(
         (time.time()-start_time)/3600.0
     ))
 
+    
 
 def train(dataset, model, device, optimizer, log, epoch=0):
     model.train()
@@ -106,13 +109,22 @@ def train(dataset, model, device, optimizer, log, epoch=0):
             log.info("Epoch: {}/{}   Training Loss: {:.3f}"
             .format(epoch+1, args.epoch, loss))
 
-'''
-def test(dataset, model, device, log):
-    
+
+def test(dataset, model, device, log, epoch=0):
     model.eval()
-    for batch_idx, (feature, label) in enumerate(dataset):
-        feature, label = feature.float().to(device), label.to(device)
-'''
+    test_loss = 0
+    correct = 0 
+    with torch.no_grad():
+        for batch_idx, (feature, label) in enumerate(dataset):
+            feature, label = feature.float().to(device), label.to(device)
+            output = model(feature)
+            test_loss = F.nll_loss(output, label, reduction='sum').item()
+            pred = output.argmax(dim=1, keepdim=True)
+            correct += pred.eq(label.view_as(pred)).sum().item()
+    test_loss /= len(dataset.dataset)
+    log.info("Epoch: {}/{}    Test Average loss: {:.3f}, Accuracy: {}/{} ({:.2f}%)"
+            .format(epoch+1, args.epoch, test_loss,correct,len(dataset.dataset),
+            100.*correct/len(dataset.dataset)))
 
 if __name__ == "__main__":
     main()
