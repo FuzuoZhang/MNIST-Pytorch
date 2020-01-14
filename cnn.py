@@ -10,7 +10,7 @@ import torch.nn.functional as F
 
 class CNN(nn.Moudles):
     def __init__(self):
-        super().__init__()
+        super(CNN, self).__init__()
         self.conv1 = nn.Conv2d(1,6,3,stride=1,padding=1)
         self.pool1 = nn.MaxPool2d(2)
 
@@ -28,8 +28,5 @@ class CNN(nn.Moudles):
         x = F.relu(self.lin1(x))
         x = F.relu(self.lin2(x))
         x = F.relu(self.lin3(x))
-
-        return x
-
-
-
+    
+        return F.log_softmax(x, dim=1)
