@@ -24,6 +24,7 @@ parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
 parser.add_argument('--stepsize', type=int, default=1, help='step size for learning rate')
 parser.add_argument('--gamma', type=float, default=0.7, help='gamma for lr schedular')
 parser.add_argument('--gpu', type=str, default='0', help='GPU ID')
+parser.add_argument('--testpath', type=str, default='/home/zhangfz/data/MNIST/test.csv', help='test data path')
 args = parser.parse_args()
 
 
@@ -126,6 +127,9 @@ def test(dataset, model, device, log, epoch=0):
             .format(epoch+1, args.epoch, test_loss,correct,len(dataset.dataset),
             100.*correct/len(dataset.dataset)))
 
+'''
+def val():
+'''
 if __name__ == "__main__":
     main()
 
