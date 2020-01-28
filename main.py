@@ -2,6 +2,8 @@ import argparse
 
 import os
 import time
+import numpy as np
+import pandas as pd
 import torch
 import torch.utils.data
 import torch.optim as optim
@@ -10,7 +12,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from cnn import CNN
 from logger import setup_logger
-from dataloader import dataloader, myDataset
+import dataloader as D1
+import val_dataloader as D2
+#from dataloader import dataloader, myDataset
 
 parser = argparse.ArgumentParser(description='CNN with MNIST')
 parser.add_argument('--epoch', type=int, default=20, help='number of epochs to train')
@@ -35,10 +39,10 @@ def main():
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
 
     
-    train_feture, val_feature, train_label, val_label = dataloader(args.datapath)
-    TrainDataset = torch.utils.data.DataLoader(myDataset(train_feture, train_label),
+    train_feture, test_feature, train_label, test_label = D1.dataloader(args.datapath)
+    TrainDataset = torch.utils.data.DataLoader(D1.myDataset(train_feture, train_label),
                     batch_size = args.train_bsize, shuffle=False, num_workers=1, drop_last=False)
-    ValDataset = torch.utils.data.DataLoader(myDataset(val_feature, val_label),
+    TestDataset = torch.utils.data.DataLoader(D1.myDataset(test_feature, test_label),
                     batch_size=args.val_bsize, shuffle=False, num_workers=1, drop_last=False)
 
     if not os.path.isdir(args.save_path):
@@ -87,13 +91,14 @@ def main():
             savefile)
         
         scheduler.step() # 更新学习率
-        test(ValDataset, model, device, log, epoch)
+        test(TestDataset, model, device, log, epoch)
     log.info("full training time = {: 2f} hours".format(
         (time.time()-start_time)/3600.0
     ))
+     
+    val(model,device)
 
     
-
 def train(dataset, model, device, optimizer, log, epoch=0):
     model.train()
     for batch_idx, (feature, label) in enumerate(dataset):
@@ -127,9 +132,32 @@ def test(dataset, model, device, log, epoch=0):
             .format(epoch+1, args.epoch, test_loss,correct,len(dataset.dataset),
             100.*correct/len(dataset.dataset)))
 
-'''
-def val():
-'''
+
+def val(model, device):
+    #load data 
+    feature = D2.dataloader(args.testpath)
+    ValDataset = torch.utils.data.DataLoader(D2.myDataset(feature))
+
+    n = len(ValDataset)
+    imgid = np.arange(n)+1
+    label = np.zeros((n,),dtype=np.int8)
+
+    model.eval()
+    with torch.no_grad():
+        for batch_idx, feature in enumerate(ValDataset):
+            feature = feature.float().to(device)
+            output = model(feature)
+            pred = output.argmax(dim=1, keepdim=True)
+            label[batch_idx] = pred
+
+    df = pd.DataFrame({
+        'ImageId':imgid,
+        'Label': label
+    })
+
+    filename = args.save_path+'/submission.csv'
+    df.to_csv(filename, index=False)
+
 if __name__ == "__main__":
     main()
 
