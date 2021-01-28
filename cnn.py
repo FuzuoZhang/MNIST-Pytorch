@@ -23,8 +23,10 @@ class CNN(nn.Module):
 
 
     def forward(self, x):
+        x = x.view(-1,1,28,28)
         x = self.pool1(F.relu(self.conv1(x)))
         x = self.pool2(F.relu(self.conv2(x)))
+        x = x.view(-1,16*5*5)
         x = F.relu(self.lin1(x))
         x = F.relu(self.lin2(x))
         x = F.relu(self.lin3(x))
